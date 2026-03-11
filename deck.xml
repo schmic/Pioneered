@@ -29,13 +29,9 @@
               <Label>
                 <ObjectName>DeckPlayingLeft</ObjectName>
                 <Text>((</Text>
-                <Style>
-                  color: #d73535;
-                </Style>
-                <!-- To override basic style -->
                 <Connection>
                   <ConfigKey>[Channel<Variable name="channel"/>],play</ConfigKey>
-                  <BindProperty>visible</BindProperty>
+                  <BindProperty>highlight</BindProperty>
                 </Connection>
               </Label>
               <Label>
@@ -46,13 +42,9 @@
               <Label>
                 <ObjectName>DeckPlayingRight</ObjectName>
                 <Text>))</Text>
-                <Style>
-                  color:#d73535
-                </Style>
-                <!-- To override basic style -->
                 <Connection>
                   <ConfigKey>[Channel<Variable name="channel"/>],play</ConfigKey>
-                  <BindProperty>visible</BindProperty>
+                  <BindProperty>highlight</BindProperty>
                 </Connection>
               </Label>
             </Children>

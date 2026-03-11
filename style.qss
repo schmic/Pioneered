@@ -153,9 +153,15 @@ WPushButton[value="1"]:hover {
 }
 
 #DeckPlayingLeft, #DeckPlayingRight {
+  color: #0d274a;
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+#DeckPlayingLeft[highlight="1"],
+#DeckPlayingRight[highlight="1"] {
+  color: #d73535;
 }
 
 #DeckTrackTimeWrapper {
