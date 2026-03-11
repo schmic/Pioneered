@@ -536,6 +536,21 @@ WLabel {
 #SidebarContainer {
   background-color: #112f5c;
 }
+
+#LibraryPreviewSeekContainer {
+  background-color: #32323c;
+  padding: 4px;
+}
+
+#LibraryPreviewSeek {
+  border: 1px solid #5f5f5f;
+}
+
+#LibraryPreviewDivider {
+  background-color: #6a6a6a;
+  margin: 4px 8px;
+}
+
 #SidebarButton {
   background-color: rgba(0,0,0,0.2);
   border: 2px solid lightgray;

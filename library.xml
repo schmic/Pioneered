@@ -13,6 +13,39 @@
             <Layout>horizontal</Layout>
             <Size>0me,40max</Size>
             <Children>
+              <WidgetGroup>
+                <ObjectName>LibraryPreviewSeekContainer</ObjectName>
+                <Layout>vertical</Layout>
+                <Size>240p,40max</Size>
+                <SizePolicy>min,min</SizePolicy>
+                <MinimumSize>240,40</MinimumSize>
+                <MaximumSize>240,40</MaximumSize>
+                <Children>
+                  <Overview>
+                    <ObjectName>LibraryPreviewSeek</ObjectName>
+                    <TooltipId>waveform_overview</TooltipId>
+                    <Group>[PreviewDeck1]</Group>
+                    <Size>0me,0me</Size>
+                    <BgColor>#32323c</BgColor>
+                    <SignalColor>#8a8a8a</SignalColor>
+                    <SignalLowColor>#8a8a8a</SignalLowColor>
+                    <SignalMidColor>#b0b0b0</SignalMidColor>
+                    <SignalHighColor>#d0d0d0</SignalHighColor>
+                    <PlayedOverlayColor>#40ffffff</PlayedOverlayColor>
+                    <PlayPosColor>#ffffff</PlayPosColor>
+                    <ShowCueTimes>false</ShowCueTimes>
+                    <Connection>
+                      <ConfigKey>[PreviewDeck1],playposition</ConfigKey>
+                      <EmitOnDownPress>false</EmitOnDownPress>
+                    </Connection>
+                  </Overview>
+                </Children>
+              </WidgetGroup>
+              <WidgetGroup>
+                <ObjectName>LibraryPreviewDivider</ObjectName>
+                <Size>2p,40max</Size>
+                <SizePolicy>min,min</SizePolicy>
+              </WidgetGroup>
               <SearchBox>
                 <ObjectName>SearchBox</ObjectName>
                 <Size>0me,40max</Size>
