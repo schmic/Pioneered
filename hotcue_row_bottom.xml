@@ -2,7 +2,7 @@
   <WidgetGroup>
     <ObjectName>HotcueRow</ObjectName>
     <Layout>horizontal</Layout>
-    <Size>0me,21p</Size>
+    <Size>0me,31p</Size>
     <SizePolicy>me,min</SizePolicy>
     <Children>
       <Template src="skin:hotcue_indicator.xml">

@@ -1,7 +1,7 @@
 <Template>
   <PushButton>
     <ObjectName>Hotcue<Variable name="cue"/></ObjectName>
-    <Size>0me,19p</Size>
+    <Size>0me,29p</Size>
     <NumberStates>2</NumberStates>
     <State>
       <Number>0</Number>
