@@ -665,13 +665,15 @@ WLabel {
 
 #WaveformInfo_Key_Container,
 #WaveformInfo_Bars_Container,
+#WaveformInfo_Beatjump_Container,
 #WaveformInfo_Loopsize_Container {
   background-color: #343434;
   margin: 0;
-  min-height: 20px;
+  min-height: 22px;
   padding: 2px 5px;
 }
 
+#WaveformInfo_Beatjump_Container,
 #WaveformInfo_Bars_Container,
 #WaveformInfo_Loopsize_Container {
   border-top: 1px solid #6a6a6a;
@@ -679,20 +681,34 @@ WLabel {
 
 #WaveformInfo_RowLabel {
   color: #b1b1b1;
-  font-size: 8px;
-  min-width: 24px;
-  padding-right: 4px;
+  font-size: 10px;
+  padding-right: 0;
   text-transform: uppercase;
+}
+
+#WaveformInfo_LabelCell {
+  margin: 0;
+  max-width: 30px;
+  min-width: 30px;
+  padding: 0;
+  qproperty-layoutAlignment: 'AlignLeft | AlignVCenter';
+}
+
+#WaveformInfo_ValueCell {
+  margin: 0;
+  padding: 0;
+  qproperty-layoutAlignment: 'AlignLeft | AlignVCenter';
 }
 
 #WaveformInfo_Key,
 #WaveformInfo_Bars {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
 }
 
 #WaveformInfo_Key_Container,
 #WaveformInfo_Bars_Container,
+#WaveformInfo_Beatjump_Container,
 #WaveformInfo_Loopsize_Container {
   qproperty-layoutAlignment: 'AlignLeft | AlignTop';
 }
@@ -709,23 +725,16 @@ WLabel {
   color: #d58927;
 }
 
-#WaveformInfo_Key_Icon {
-  background-color: #d8e0ea;
-  border-radius: 1px;
-  font-size: 11px;
-  margin-right: 4px;
-  min-width: 14px;
-  padding: -5px -5px -2px -1px;
-}
-
-#WaveformInfo_Loop_Icon {
-  color: #d58927;
-  font-size: 13px;
-  font-weight: bold;
-  margin-right: 4px;
-}
-
 #WaveformInfo_BeatloopSizeSpinBox {
+  background-color: transparent;
+  border: 0;
+  margin: 0px;
+  min-height: 16px;
+  min-width: 38px;
+  padding: 0px 2px 0px 2px;
+}
+
+#WaveformInfo_BeatjumpSizeSpinBox {
   background-color: transparent;
   border: 0;
   margin: 0px;
@@ -736,7 +745,7 @@ WLabel {
 
 WBeatSpinBox {
   color: #d58927;
-  font-size: 11px/11px;
+  font-size: 13px/13px;
   font-weight: bold;
   background-color: transparent;
   border: 0;
