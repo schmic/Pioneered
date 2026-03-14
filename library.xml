@@ -27,12 +27,16 @@
                     <Group>[PreviewDeck1]</Group>
                     <Size>0me,0me</Size>
                     <BgColor>#32323c</BgColor>
-                    <SignalColor>#8a8a8a</SignalColor>
-                    <SignalLowColor>#8a8a8a</SignalLowColor>
-                    <SignalMidColor>#b0b0b0</SignalMidColor>
-                    <SignalHighColor>#d0d0d0</SignalHighColor>
-                    <PlayedOverlayColor>#40ffffff</PlayedOverlayColor>
-                    <PlayPosColor>#ffffff</PlayPosColor>
+                    <SignalHighColor>#D0D0D0</SignalHighColor>
+                    <SignalMidColor>#B0B0B0</SignalMidColor>
+                    <SignalLowColor>#8A8A8A</SignalLowColor>
+                    <SignalRGBHighColor></SignalRGBHighColor>
+                    <SignalRGBMidColor></SignalRGBMidColor>
+                    <SignalRGBLowColor></SignalRGBLowColor>
+                    <SignalColor>#8A8A8A</SignalColor>
+                    <PlayedOverlayColor>#40FFFFFF</PlayedOverlayColor>
+                    <PlayPosColor>#FFFFFF</PlayPosColor>
+                    <EndOfTrackColor>#EA0000</EndOfTrackColor>
                     <ShowCueTimes>false</ShowCueTimes>
                     <Connection>
                       <ConfigKey>[PreviewDeck1],playposition</ConfigKey>

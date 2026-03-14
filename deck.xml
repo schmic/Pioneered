@@ -107,8 +107,7 @@
                       <TrackProperty>
                         <ObjectName>TrackNumber</ObjectName>
                         <Size>0me,0me</Size>
-                        <TooltipId>track_number</TooltipId>
-                        <Property>track_number</Property>
+                        <Property>tracknumber</Property>
                         <Channel><Variable name="channel"/></Channel>
                         <Elide>right</Elide>
                       </TrackProperty>
@@ -267,12 +266,17 @@
             <ObjectName>DeckOverview</ObjectName>
             <Size>0me,100f</Size>
             <Channel><Variable name="channel"/></Channel>
-            <BgColor>#000</BgColor>
-            <SignalColor>#222</SignalColor>
-            <SignalLowColor>#007de1</SignalLowColor>
-            <SignalMidColor>#007de1</SignalMidColor>
-            <SignalHighColor>#007de1</SignalHighColor>
-            <PlayedOverlayColor>#40ffffff</PlayedOverlayColor>
+            <BgColor>#000000</BgColor>
+            <SignalHighColor>#007DE1</SignalHighColor>
+            <SignalMidColor>#007DE1</SignalMidColor>
+            <SignalLowColor>#007DE1</SignalLowColor>
+            <SignalRGBHighColor></SignalRGBHighColor>
+            <SignalRGBMidColor></SignalRGBMidColor>
+            <SignalRGBLowColor></SignalRGBLowColor>
+            <SignalColor>#222222</SignalColor>
+            <PlayedOverlayColor>#40FFFFFF</PlayedOverlayColor>
+            <PlayPosColor>#FFFFFF</PlayPosColor>
+            <EndOfTrackColor>#EA0000</EndOfTrackColor>
             <Mark>
               <Control>cue_point</Control>
               <Color>#eb870f</Color>
