@@ -1,10 +1,10 @@
-![logo](https://github.com/timewasternl/Pioneered/blob/master/images/pioneered_logo.png?raw=true)
+![logo](https://github.com/schmic/Pioneered/blob/master/images/pioneered_logo.png?raw=true)
 
 Pioneer inspired theme for smaller screen resolutions. It has been designed to 'extend' a MIDI controller.
 Designed for use with the DDJ-400 with Raspberry Pi standalone mod ([link](https://www.youtube.com/watch?v=kyrJW7Vaf68)).
 
 ## Screenshot
-![skin_preview](https://github.com/timewasternl/Pioneered/blob/master/skin_preview.png?raw=true)
+![skin_preview](https://github.com/schmic/Pioneered/blob/master/skin_preview.png?raw=true)
 
 ## Features
 * Tabbed view: Overview, Browse and Samples
@@ -25,3 +25,6 @@ Alternatively, you can use the `install.linux.sh` script to automatically instal
 * [GorgiAstro](https://github.com/GorgiAstro)
 * [BvOBart](https://github.com/bvobart)
 * [bencejuhaasz](https://github.com/bencejuhaasz)
+
+### Forked
+* [schmic](https://github.com/schmic)
