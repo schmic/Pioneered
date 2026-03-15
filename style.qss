@@ -663,7 +663,6 @@ WLabel {
   text-transform: uppercase;
 }
 
-#WaveformInfo_Dummy_Container,
 #WaveformInfo_Key_Container,
 #WaveformInfo_Bars_Container,
 #WaveformInfo_Loopsize_Container,

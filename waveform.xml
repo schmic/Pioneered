@@ -221,13 +221,6 @@
                 </Children>
               </WidgetGroup>
               <WidgetGroup>
-                <ObjectName>WaveformInfo_Dummy_Container</ObjectName>
-                <Layout>horizontal</Layout>
-                <Size>0me,128me</Size>
-                <Children>
-                </Children>
-              </WidgetGroup>
-              <WidgetGroup>
                 <ObjectName>WaveformInfo_Fill</ObjectName>
                 <SizePolicy>me,me</SizePolicy>
               </WidgetGroup>
