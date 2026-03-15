@@ -146,6 +146,31 @@
                 </Children>
               </WidgetGroup>
               <WidgetGroup>
+                <ObjectName>WaveformInfo_Sync_Container</ObjectName>
+                <Layout>horizontal</Layout>
+                <Size>0me,0me</Size>
+                <Children>
+                  <WidgetGroup>
+                    <ObjectName>WaveformInfo_ValueCell</ObjectName>
+                    <Layout>horizontal</Layout>
+                    <Children>
+                      <Template src="skin:templates/toggle_button.xml">
+                        <SetVariable name="TooltipId">sync_enabled</SetVariable>
+                        <SetVariable name="ObjectName">WaveformInfo_SyncButton</SetVariable>
+                        <SetVariable name="Size">16f,16f</SetVariable>
+                        <SetVariable name="LeftConnectionControl">[Channel<Variable name="channel"/>],sync_enabled</SetVariable>
+                      </Template>
+                      <Template src="skin:templates/toggle_button.xml">
+                        <SetVariable name="TooltipId">sync_leader</SetVariable>
+                        <SetVariable name="ObjectName">WaveformInfo_SyncLeaderButton</SetVariable>
+                        <SetVariable name="Size">16f,16f</SetVariable>
+                        <SetVariable name="LeftConnectionControl">[Channel<Variable name="channel"/>],sync_leader</SetVariable>
+                      </Template>
+                    </Children>
+                  </WidgetGroup>
+                </Children>
+              </WidgetGroup>
+              <WidgetGroup>
                 <ObjectName>WaveformInfo_Quantize_Container</ObjectName>
                 <Layout>horizontal</Layout>
                 <Size>0me,0me</Size>

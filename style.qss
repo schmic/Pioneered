@@ -667,6 +667,7 @@ WLabel {
 #WaveformInfo_Key_Container,
 #WaveformInfo_Bars_Container,
 #WaveformInfo_Loopsize_Container,
+#WaveformInfo_Sync_Container,
 #WaveformInfo_Beatjump_Container,
 #WaveformInfo_Quantize_Container,
 #WaveformInfo_Beatgrid_Container {
@@ -679,6 +680,7 @@ WLabel {
   border-top: 1px solid #6a6a6a;
 }
 
+#WaveformInfo_Sync_Container,
 #WaveformInfo_Quantize_Container,
 #WaveformInfo_Beatgrid_Container {
   qproperty-layoutAlignment: 'AlignCenter | AlignVCenter';
@@ -787,6 +789,15 @@ WBeatSpinBox::up-button {
   image: url(skin:icons/beats_later.svg) no-repeat center center;
 }
 
+#WaveformInfo_SyncButton {
+  image: url(skin:icons/sync.svg) no-repeat center center;
+}
+
+#WaveformInfo_SyncLeaderButton {
+  image: url(skin:icons/sync_leader.svg) no-repeat center center;
+}
+
+#WaveformInfo_Sync_Container WPushButton,
 #WaveformInfo_Quantize_Container WPushButton,
 #WaveformInfo_Beatgrid_Container WPushButton {
   background-color: transparent;
@@ -798,6 +809,7 @@ WBeatSpinBox::up-button {
   padding: 0 8px;
 }
 
+#WaveformInfo_Sync_Container WPushButton[value="1"],
 #WaveformInfo_Quantize_Container WPushButton[value="1"],
 #WaveformInfo_Beatgrid_Container WPushButton[value="1"] {
   background-color: #24384d;
